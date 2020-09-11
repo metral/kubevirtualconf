@@ -17,7 +17,7 @@ const password = new rand.RandomPassword(`${projectName}-password`, {
 },{ additionalSecretOutputs: ["result"] }).result;
 
 // Create the GKE cluster.
-// Find the latest 1.15.x engine version.
+// Find the latest 1.16.x engine version.
 const engineVersion = gcp.container.getEngineVersions({
     location: gcp.config.zone,
     project: gcp.config.project,
