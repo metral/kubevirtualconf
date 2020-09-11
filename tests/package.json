@@ -1,0 +1,10 @@
+{
+    "name": "k8s-tests",
+    "devDependencies": {
+        "@types/node": "latest"
+    },
+    "dependencies": {
+        "@pulumi/kubernetes": "^2.0.0",
+        "@pulumi/pulumi": "^2.0.0"
+    }
+}
